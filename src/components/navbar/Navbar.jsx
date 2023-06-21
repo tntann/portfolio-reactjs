@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./NavbarStyle.css";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(true);
