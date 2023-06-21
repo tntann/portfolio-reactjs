@@ -7,11 +7,11 @@ const About = () => {
       <div className="px-5 max-w-[1560px] mx-auto min-h-screen pt-20 flex items-center justify-between flex-wrap">
         <div className="w-10/12 sm:w-8/12 mx-auto">
           <h1 className=" font-semibold text-[32px] text-white mb-3">
-            Tntan is a <span className=" text-[#C778DD]">web designer</span> and
+            Hi, I am Nhat Tan <span className=" text-[#C778DD]"> - </span>
             <span className=" text-[#C778DD]"> front-end developer</span>
           </h1>
           <p className="text-[#ABB2BF] my-6">
-            He crafts responsive websites where technologies meet creativity
+            I Know That Strong Mind-Set Means Strong Successful
           </p>
           <button className="text-white font-medium py-2 px-4 border duration-200 border-[#C778DD] hover:bg-[#C778DD33]">
             Contact me!!
@@ -24,7 +24,7 @@ const About = () => {
           <div className="border flex items-center gap-2 border-[#ABB2BF] p-2 text-[#ABB2BF]">
             <div className=" w-4 h-4 bg-[#C778DD]"></div>
             <div className="">
-              Currently working on <span className="text-white">Portfolio</span>
+              Contact work with me by <span className="text-white">Email</span>
             </div>
           </div>
         </div>
