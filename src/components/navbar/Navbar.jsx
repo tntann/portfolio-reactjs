@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./NavbarStyle.css";
 
 const Navbar = () => {
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
   return (
     <>
       <div className="fixed top-0 left-0 right-0 bg-[#282C33]">
