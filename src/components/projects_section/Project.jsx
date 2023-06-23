@@ -8,7 +8,7 @@ const Project = () => {
     {
       id: 1,
       img: "./images/Project/wedding.png",
-      langs: ["HTML", "CSS", "JAVASCRIPT", "BOOTSTRAP"],
+      langs: ["HTML", "CSS", "BOOTSTRAP"],
       title: "Studio Wedding",
       desc: "Minecraft servers hosting",
       link: "https://tntann.github.io/studio_wedding/",
@@ -18,7 +18,7 @@ const Project = () => {
       img: "./images/Project/shopee.png",
       langs: ["HTML", "CSS", "Reponsive"],
       title: "Shopee Clone",
-      desc: "Discord anti-crash bot",
+      desc: "Shoppee clone UI only",
       link: "https://tntann.github.io/shopee_clone/",
     },
     {
@@ -26,7 +26,7 @@ const Project = () => {
       img: "./images/Project/music-app.png",
       langs: ["HTML", "CSS", "JAVASCRIPT"],
       title: "Music Player",
-      desc: "Get answers to your kahoot quiz",
+      desc: "Minimal design, Working basic functions",
       link: "https://tntann.github.io/music_player/",
     },
   ];

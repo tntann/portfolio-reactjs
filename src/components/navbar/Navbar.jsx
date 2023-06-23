@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./NavbarStyle.css";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -10,9 +9,14 @@ const Navbar = () => {
           <div className="left flex gap-2 items-center font-bold text-white text-base">
             {/* logo */}
             <div className="img">
-              <img src="./images/Logo.png" alt="" />
+              <a
+                href="#"
+                className="flex flex-wrap justify-between items-center gap-2"
+              >
+                <img src="./images/Logo.png" alt="" />
+                Tntan
+              </a>
             </div>
-            Tntan
           </div>
           <div className="right flex items-center">
             <div

@@ -18,7 +18,7 @@ const About = () => {
           </button>
         </div>
         <div className="mx-auto">
-          <div className="">
+          <div className=" object-cover">
             <img src="./images/avt-about.png" alt="" />
           </div>
           <div className="border flex items-center gap-2 border-[#ABB2BF] p-2 text-[#ABB2BF]">
@@ -32,7 +32,6 @@ const About = () => {
       <div className=" px-5 py-10">
         <img className="mx-auto" src="./images/quote.png" alt="" />
       </div>
-      ;
     </>
   );
 };
