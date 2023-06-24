@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -26,26 +27,26 @@ const Navbar = () => {
                   : ` right-0 top-0 bottom-0`
               } bg-[#282C33] md:static`}
             >
-              <a href="#">
-                <li className="text-[#ABB2BF] text-[32px] my-4 md:my-auto md:text-base list-none mx-4">
+              <NavLink to="/">
+                <li className="text-[#ABB2BF] text-[32px] my-4 md:my-auto md:text-base list-none mx-4 hover:text-white">
                   <span className="text-[#C778DD] font-medium">#</span>home
                 </li>
-              </a>
-              <a href="#">
-                <li className="text-[#ABB2BF] text-[32px] my-4 md:my-auto md:text-base list-none mx-4">
-                  <span className="text-[#C778DD] font-medium">#</span>work
+              </NavLink>
+              <NavLink to="/projects">
+                <li className="text-[#ABB2BF] text-[32px] my-4 md:my-auto md:text-base list-none mx-4 hover:text-white">
+                  <span className="text-[#C778DD] font-medium">#</span>projects
                 </li>
-              </a>
-              <a href="#">
-                <li className="text-[#ABB2BF] text-[32px] my-4 md:my-auto md:text-base list-none mx-4">
+              </NavLink>
+              <NavLink to="/about">
+                <li className="text-[#ABB2BF] text-[32px] my-4 md:my-auto md:text-base list-none mx-4 hover:text-white">
                   <span className="text-[#C778DD] font-medium">#</span>about-me
                 </li>
-              </a>
-              <a href="#">
-                <li className="text-[#ABB2BF] text-[32px] my-4 md:my-auto md:text-base list-none mx-4">
+              </NavLink>
+              <NavLink to="/contact">
+                <li className="text-[#ABB2BF] text-[32px] my-4 md:my-auto md:text-base list-none mx-4 hover:text-white">
                   <span className="text-[#C778DD] font-medium">#</span>contacts
                 </li>
-              </a>
+              </NavLink>
               <div
                 onClick={() => setToggle(false)}
                 className="close absolute block md:hidden right-3 top-3"

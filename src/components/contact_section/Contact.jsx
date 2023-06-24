@@ -34,31 +34,21 @@ const Contact = () => {
               {/* get in touch */}
               <div className="">
                 {/* link */}
-                <div className="">
-                  <a href="#" className="flex gap-2 items-center">
-                    <BiSolidPhoneCall className=" w-5 h-5 text-[#ABB2BF] hover:text-[#C778DD]" />
-                    <span className="text-[#ABB2BF]">0963300334</span>
-                  </a>
+                <div className="flex gap-2 items-center">
+                  <BiSolidPhoneCall className=" w-5 h-5 text-[#ABB2BF] hover:text-[#C778DD] cursor-pointer" />
+                  <span className="text-[#ABB2BF]">0963300334</span>
                 </div>
-                <div className="">
-                  <a
-                    href="https://github.com/tntann"
-                    className="flex gap-2 items-center"
-                  >
+                <div className="flex gap-2 items-center">
+                  <a href="https://github.com/tntann">
                     <BiLogoGithub className=" w-5 h-5 text-[#ABB2BF] hover:text-[#C778DD]" />
-                    <span className="text-[#ABB2BF]">tntann</span>
                   </a>
+                  <span className="text-[#ABB2BF]">tntann</span>
                 </div>
-                <div className="">
-                  <a
-                    href="https://mail.google.com/"
-                    className="flex gap-2 items-center"
-                  >
+                <div className="flex gap-2 items-center">
+                  <a href="https://mail.google.com/">
                     <BiLogoGmail className=" w-5 h-5 text-[#ABB2BF] hover:text-[#C778DD]" />
-                    <span className="text-[#ABB2BF]">
-                      nhattan8421@gmail.com
-                    </span>
                   </a>
+                  <span className="text-[#ABB2BF]">nhattan8421@gmail.com</span>
                 </div>
               </div>
             </div>
