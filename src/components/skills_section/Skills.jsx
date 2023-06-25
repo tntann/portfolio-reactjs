@@ -1,29 +1,7 @@
 import React, { Fragment } from "react";
+import { SkillsData } from "../../SkillsData";
 
 const Skills = () => {
-  const skills = [
-    {
-      id: 1,
-      title: "Languages",
-      languages: ["HTML", "CSS", "Javascript", "ReactJS"],
-    },
-    {
-      id: 2,
-      title: "Databases",
-      languages: ["MySQL", "MySQL", "MySQL", ""],
-    },
-    {
-      id: 3,
-      title: "Tools",
-      languages: ["VSCode", "Git", "Figma", "Font Awesome"],
-    },
-    { id: 4, title: "Other", languages: ["SCSS", "SASS", "TailWindCSS", ""] },
-    {
-      id: 5,
-      title: "Frameworks",
-      languages: ["React", "React", "React", "React"],
-    },
-  ];
   return (
     <>
       <div className="px-5 max-w-[1560px] mx-auto mt-20 py-10">
@@ -44,7 +22,7 @@ const Skills = () => {
           </div>
           {/* right & mapping */}
           <div className="mx-auto flex justify-around md:justify-end flex-wrap w-10/12 md:w-1/2 gap-4">
-            {skills.map((item) => {
+            {SkillsData.map((item) => {
               return (
                 <Fragment key={item.id}>
                   <div className="w-[90%] sm:w-[45%] lg:w-[30%] border border-[#ABB2BF]">

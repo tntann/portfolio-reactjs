@@ -1,5 +1,6 @@
 import React from "react";
 import "./about.css";
+import { NavLink } from "react-router-dom";
 
 const About = () => {
   return (
@@ -13,9 +14,11 @@ const About = () => {
           <p className="text-[#ABB2BF] my-6">
             I Know That Strong Mind-Set Means Strong Successful
           </p>
-          <button className="text-white font-medium py-2 px-4 border duration-200 border-[#C778DD] hover:bg-[#C778DD33]">
-            Contact me!!
-          </button>
+          <NavLink to="/contact">
+            <button className="text-white font-medium py-2 px-4 border duration-200 border-[#C778DD] hover:bg-[#C778DD33]">
+              Contact me!!
+            </button>
+          </NavLink>
         </div>
         <div className="mx-auto">
           <div className=" object-cover">

@@ -1,36 +1,10 @@
 import React from "react";
 import "./project.css";
 import ProjectCard from "../project_card/ProjectCard";
+import { NavLink } from "react-router-dom";
+import { ProjectsData } from "../../ProjectsData";
 
 const Project = () => {
-  //date
-  const projects = [
-    {
-      id: 1,
-      img: "./images/Project/wedding.png",
-      langs: ["HTML", "CSS", "BOOTSTRAP"],
-      title: "Studio Wedding",
-      desc: "Minecraft servers hosting",
-      link: "https://tntann.github.io/studio_wedding/",
-    },
-    {
-      id: 2,
-      img: "./images/Project/shopee.png",
-      langs: ["HTML", "CSS", "Reponsive"],
-      title: "Shopee Clone",
-      desc: "Shoppee clone UI only",
-      link: "https://tntann.github.io/shopee_clone/",
-    },
-    {
-      id: 3,
-      img: "./images/Project/music-app.png",
-      langs: ["HTML", "CSS", "JAVASCRIPT"],
-      title: "Music Player",
-      desc: "Minimal design, Working basic functions",
-      link: "https://tntann.github.io/music_player/",
-    },
-  ];
-
   return (
     <>
       <div className="px-5 max-w-[1560px] mx-auto mt-20 py-10">
@@ -45,15 +19,15 @@ const Project = () => {
           </div>
           {/* right */}
           <div className=" text-white font-medium">
-            <a href="">
-              <span>View all ~~&gt;</span>
-            </a>
+            <NavLink to="./projects">
+              <span className="hover:text-[#C778DD]">View all ~~&gt;</span>
+            </NavLink>
           </div>
         </div>
         {/* bottom */}
         <div className="flex flex-wrap justify-between gap-4 my-12">
           {/* card */}
-          {projects.map((item) => {
+          {ProjectsData.map((item) => {
             return (
               <ProjectCard
                 key={item.id}

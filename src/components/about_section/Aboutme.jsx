@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Aboutme = () => {
   return (
@@ -36,12 +37,12 @@ const Aboutme = () => {
             </p>
             {/* button */}
             <div className="mt-7 w-10/12 mx-auto">
-              <a
-                href="#"
+              <NavLink
+                to="/about"
                 className="hover:bg-[#C778DD33] border border-[#C778DD] px-4 py-2 text-white"
               >
                 <button>Read more -&gt;</button>
-              </a>
+              </NavLink>
             </div>
           </div>
           {/* right */}

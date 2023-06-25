@@ -10,13 +10,13 @@ const Navbar = () => {
           <div className="left flex gap-2 items-center font-bold text-white text-base">
             {/* logo */}
             <div className="img">
-              <a
-                href="#"
+              <NavLink
+                to="/"
                 className="flex flex-wrap justify-between items-center gap-2"
               >
                 <img src="./images/Logo.png" alt="" />
                 Tntan
-              </a>
+              </NavLink>
             </div>
           </div>
           <div className="right flex items-center">

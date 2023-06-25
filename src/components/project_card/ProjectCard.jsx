@@ -6,7 +6,7 @@ const ProjectCard = (props) => {
       <div className="border mx-auto w-[90%] md:w-[48%] lg:w-[30%] border-[#ABB2BF] p-0">
         {/* img */}
         <div className="">
-          <img className="w-full" src={props.img} alt="" />
+          <img className="w-full object-cover" src={props.img} alt="" />
         </div>
         {/* skill */}
         <div className="flex gap-2 flex-wrap p-2 border-y border-[#ABB2BF]">
