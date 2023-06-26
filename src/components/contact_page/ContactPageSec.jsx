@@ -15,7 +15,7 @@ const ContactPageSec = () => {
       <div className="px-5 max-w-[1560px] min-h-screen mx-auto pt-20 py-10">
         <div className="mb-12">
           <div className=" text-white w-2/3 font-semibold text-[32px] mt-12">
-            <div data-aos="fade-right" className="">
+            <div className="">
               <NavLink to="/">
                 <span className="text-[#C778DD] hover:text-[#C778DD99]">
                   {" "}
@@ -33,7 +33,7 @@ const ContactPageSec = () => {
         {/* bottom */}
         <div className="flex items-start flex-wrap justify-between gap-10">
           {/* left */}
-          <div data-aos="fade-right" className="left w-full md:w-1/2">
+          <div className="left w-full md:w-1/2">
             <p className="text-[#ABB2BF]">
               Feel free to get in touch with me. I am always open to discussing
               new projects, creative ideas or opportunities to be part of your
@@ -41,7 +41,7 @@ const ContactPageSec = () => {
             </p>
           </div>
           {/* right */}
-          <div data-aos="fade-left" className="mx-auto">
+          <div className="mx-auto">
             {/* box */}
             <div className="border border-[#ABB2BF] p-4">
               <h2 className="mb-4 text-white font-semibold">Message me here</h2>
@@ -73,7 +73,7 @@ const ContactPageSec = () => {
           </div>
         </div>
         {/* all media */}
-        <div data-aos="fade-up" className="mt-6 mb-5">
+        <div className="mt-6 mb-5">
           {/* title */}
           <div className="text-[32px] font-medium text-white">
             <span className="text-[#C778DD]">#</span>all-media

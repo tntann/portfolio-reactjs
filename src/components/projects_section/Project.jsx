@@ -9,10 +9,7 @@ const Project = () => {
     <>
       <div className="px-5 max-w-[1560px] mx-auto mt-20 py-10">
         {/* top */}
-        <div
-          data-aos="fade-down"
-          className=" flex justify-between items-center gap-5"
-        >
+        <div className=" flex justify-between items-center gap-5">
           {/* left */}
           <div className=" text-white w-2/3 font-medium text-[32px] flex items-center gap-2">
             <div className="">

@@ -17,10 +17,7 @@ const SmallProjects = () => {
           return (
             <Fragment key={item.id}>
               {/* card */}
-              <div
-                data-aos="zoom-in-down"
-                className="card max-w-[331px] w-full border border-[#ABB2BF]"
-              >
+              <div className="card max-w-[331px] w-full border border-[#ABB2BF]">
                 {/* skills */}
                 <div className=" border-b border-[#ABB2BF] p-2 text-[#ABB2BF]">
                   {item.languages.map((e, index) => {

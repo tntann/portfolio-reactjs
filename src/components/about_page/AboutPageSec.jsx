@@ -22,7 +22,7 @@ const AboutPageSec = () => {
         {/* bottom */}
         <div className="flex flex-wrap justify-between items-center gap-10">
           {/* left */}
-          <div data-aos="fade-right" className=" md:w-[48%] w-full">
+          <div className=" md:w-[48%] w-full">
             {/* desc */}
             <p className="text-[#ABB2BF] w-10/12 mx-auto">
               Hi, I{"'"}m Tran Nhat Tan.
@@ -42,7 +42,7 @@ const AboutPageSec = () => {
             </p>
           </div>
           {/* right */}
-          <div data-aos="fade-left" className="mx-auto">
+          <div className="mx-auto">
             <img
               className="w-full max-sm:w-[90%] mx-auto h-[400px] rounded object-cover shadow-md"
               src="./images/me.jpg"

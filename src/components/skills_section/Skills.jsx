@@ -6,7 +6,7 @@ const Skills = () => {
     <>
       <div className="px-5 max-w-[1560px] mx-auto mt-20 py-10">
         {/* top */}
-        <div data-aos="fade-right" className="mb-10">
+        <div className="mb-10">
           <div className=" text-white w-2/3 font-medium text-[32px] flex items-center gap-2">
             <div className="">
               <span className="text-[#C778DD]">#</span>skills
@@ -17,14 +17,11 @@ const Skills = () => {
         {/* bottom */}
         <div className=" flex flex-wrap gap-10 justify-between items-center text-white">
           {/* left */}
-          <div data-aos="fade-right" className="mx-auto">
+          <div className="mx-auto">
             <img className="w-full mx-auto" src="./images/shapes.png" alt="" />
           </div>
           {/* right & mapping */}
-          <div
-            data-aos="fade-left"
-            className="mx-auto flex justify-around md:justify-end flex-wrap w-10/12 md:w-1/2 gap-4"
-          >
+          <div className="mx-auto flex justify-around md:justify-end flex-wrap w-10/12 md:w-1/2 gap-4">
             {SkillsData.map((item) => {
               return (
                 <Fragment key={item.id}>
