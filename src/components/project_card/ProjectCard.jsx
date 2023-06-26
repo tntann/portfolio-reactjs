@@ -3,7 +3,10 @@ import React from "react";
 const ProjectCard = (props) => {
   return (
     <>
-      <div className="border mx-auto w-[90%] md:w-[48%] lg:w-[30%] border-[#ABB2BF] p-0">
+      <div
+        data-aos="zoom-in-down"
+        className="border mx-auto w-[90%] md:w-[48%] lg:w-[30%] border-[#ABB2BF] p-0"
+      >
         {/* img */}
         <div className="">
           <img className="w-full object-cover" src={props.img} alt="" />

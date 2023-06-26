@@ -1,10 +1,15 @@
 import React from "react";
 import { BiSolidPhoneCall, BiLogoGmail, BiLogoGithub } from "react-icons/bi";
+import { FaLocationDot } from "react-icons/fa6";
 
 const Contact = () => {
   return (
     <>
-      <div className="px-5 max-w-[1560px] mx-auto mt-20 py-10">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="1000"
+        className="px-5 max-w-[1560px] mx-auto mt-20 py-10"
+      >
         {/* top */}
         <div className="">
           {/* header */}
@@ -34,6 +39,10 @@ const Contact = () => {
               {/* get in touch */}
               <div className="">
                 {/* link */}
+                <div className="flex gap-2 items-center">
+                  <FaLocationDot className=" w-5 h-5 text-[#ABB2BF] hover:text-[#C778DD] cursor-pointer" />
+                  <span className="text-[#ABB2BF]">Da Nang, Viet Nam</span>
+                </div>
                 <div className="flex gap-2 items-center">
                   <BiSolidPhoneCall className=" w-5 h-5 text-[#ABB2BF] hover:text-[#C778DD] cursor-pointer" />
                   <span className="text-[#ABB2BF]">0963300334</span>

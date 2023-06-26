@@ -1,9 +1,10 @@
 import React from "react";
+import ContactPageSec from "../components/contact_page/ContactPageSec";
 
 const ContactPage = () => {
   return (
     <>
-      <h1>contact</h1>
+      <ContactPageSec />
     </>
   );
 };

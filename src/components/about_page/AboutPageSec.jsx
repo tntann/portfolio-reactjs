@@ -1,23 +1,28 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const Aboutme = () => {
+const AboutPageSec = () => {
   return (
     <>
-      <div className="px-5 max-w-[1560px] mx-auto mt-20 py-10">
+      <div className="px-5 max-w-[1560px] mx-auto pt-20 py-10">
+        {/* title */}
+        <div className="mb-12">
+          <div className=" text-white w-2/3 font-semibold text-[32px] mt-12">
+            <div className="">
+              <NavLink to="/">
+                <span className="text-[#C778DD] hover:text-[#C778DD99]">
+                  {" "}
+                  {"<"}~~{" "}
+                </span>
+              </NavLink>
+              <span>about-me</span>
+            </div>
+          </div>
+        </div>
         {/* bottom */}
         <div className="flex flex-wrap justify-between items-center gap-10">
           {/* left */}
           <div data-aos="fade-right" className=" md:w-[48%] w-full">
-            {/* title */}
-            <div data-aos="fade-right" className="mb-12">
-              <div className=" text-white w-2/3 font-medium text-[32px] flex items-center gap-2">
-                <div className="">
-                  <span className="text-[#C778DD]">#</span>about-me
-                </div>
-                <div className="line w-1/3 h-px bg-[#C778DD]"></div>
-              </div>
-            </div>
             {/* desc */}
             <p className="text-[#ABB2BF] w-10/12 mx-auto">
               Hi, I{"'"}m Tran Nhat Tan.
@@ -35,15 +40,6 @@ const Aboutme = () => {
               <br />
               <br />
             </p>
-            {/* button */}
-            <div className="mt-7 w-10/12 mx-auto">
-              <NavLink
-                to="/about"
-                className="hover:bg-[#C778DD33] border border-[#C778DD] px-4 py-2 text-white"
-              >
-                <button>Read more -&gt;</button>
-              </NavLink>
-            </div>
           </div>
           {/* right */}
           <div data-aos="fade-left" className="mx-auto">
@@ -59,4 +55,4 @@ const Aboutme = () => {
   );
 };
 
-export default Aboutme;
+export default AboutPageSec;

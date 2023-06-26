@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./about.css";
 import { NavLink } from "react-router-dom";
 
@@ -6,7 +6,7 @@ const About = () => {
   return (
     <>
       <div className="px-5 max-w-[1560px] mx-auto min-h-screen pt-20 flex items-center justify-between flex-wrap">
-        <div className="w-10/12 sm:w-8/12 mx-auto">
+        <div data-aos="fade-right" className="w-10/12 sm:w-8/12 mx-auto">
           <h1 className=" font-semibold text-[32px] text-white mb-3">
             Hi, I am Nhat Tan <span className=" text-[#C778DD]"> - </span>
             <span className=" text-[#C778DD]"> front-end developer</span>
@@ -20,7 +20,7 @@ const About = () => {
             </button>
           </NavLink>
         </div>
-        <div className="mx-auto">
+        <div data-aos="fade-left" data-aos-delay="400" className="mx-auto">
           <div className=" object-cover">
             <img src="./images/avt-about.png" alt="" />
           </div>
@@ -32,7 +32,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className=" px-5 py-10">
+      <div data-aos="fade-up" className=" px-5 py-10">
         <img className="mx-auto" src="./images/quote.png" alt="" />
       </div>
     </>

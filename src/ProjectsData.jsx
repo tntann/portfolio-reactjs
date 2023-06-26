@@ -33,18 +33,18 @@ export const ProjectsData = [
   },
   {
     id: 5,
+    img: "./images/Project/shopphone.png",
+    langs: ["HTML", "CSS", "MySQL", "PHP"],
+    title: "Ecommerce",
+    desc: "Minimal design, Working basic functions",
+    link: "https://hecommercestore.000webhostapp.com/",
+  },
+  {
+    id: 6,
     img: "./images/Project/portfolio.png",
     langs: ["REACTJS", "TAILWINDCSS", "Responsive"],
     title: "Portfolio",
     desc: "My portfolio",
     link: "https://portfolio-reactjs-tntan.vercel.app/",
   },
-  //   {
-  //     id: 6,
-  //     img: "./images/Project/shopphone.png",
-  //     langs: ["HTML", "CSS", "MySQL", "PHP"],
-  //     title: "Ecommerce",
-  //     desc: "Minimal design, Working basic functions",
-  //     link: "https://tntann.github.io/music_player/",
-  //   },
 ];
