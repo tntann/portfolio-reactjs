@@ -5,7 +5,10 @@ import { FaLocationDot } from "react-icons/fa6";
 const Contact = () => {
   return (
     <>
-      <div className="px-5 max-w-[1560px] mx-auto mt-20 py-10">
+      <div
+        data-aos="fade-up"
+        className="px-5 max-w-[1560px] mx-auto mt-20 py-10"
+      >
         {/* top */}
         <div className="">
           {/* header */}

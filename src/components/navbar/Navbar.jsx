@@ -1,14 +1,13 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
+import { FaXmark } from "react-icons/fa6";
+import { IoMenuSharp } from "react-icons/io5";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <>
-      <div
-        // data-aos="fade-down"
-        className="fixed top-0 left-0 right-0 bg-[#282C33]"
-      >
+      <div className="fixed top-0 left-0 right-0 bg-[#282C33] z-10">
         <div className="px-5 max-w-[1560px] mx-auto flex items-center justify-between pt-6 my-2">
           <div className="left flex gap-2 items-center font-bold text-white text-base">
             {/* logo */}
@@ -54,15 +53,13 @@ const Navbar = () => {
                 onClick={() => setToggle(false)}
                 className="close absolute block md:hidden right-3 top-3"
               >
-                <img src="./images/close.png" alt="" />
+                <FaXmark className=" w-10 h-10 text-[#ABB2BF] hover:text-[#C778DD]" />
               </div>
             </div>
             {/* CLOSE&OPEN btn */}
             <div onClick={() => setToggle(true)} className="">
               <div className="open block md:hidden w-8">
-                <div className="w-full h-[1px] my-2 rounded-r-3xl bg-[#D9D9D9]"></div>
-                <div className="w-full h-[1px] my-2 rounded-r-3xl bg-[#D9D9D9]"></div>
-                <div className="w-full h-[1px] my-2 rounded-r-3xl bg-[#D9D9D9]"></div>
+                <IoMenuSharp className="w-8 h-8 text-[#D9D9D9] hover:text-[#C778DD]"></IoMenuSharp>
               </div>
             </div>
           </div>

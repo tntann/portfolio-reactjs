@@ -1,5 +1,4 @@
 import React from "react";
-import "./project.css";
 import ProjectCard from "../project_card/ProjectCard";
 import { NavLink } from "react-router-dom";
 import { ProjectsData } from "../../ProjectsData";
@@ -9,7 +8,10 @@ const Project = () => {
     <>
       <div className="px-5 max-w-[1560px] mx-auto mt-20 py-10">
         {/* top */}
-        <div className=" flex justify-between items-center gap-5">
+        <div
+          data-aos="fade-right"
+          className=" flex justify-between items-center gap-5"
+        >
           {/* left */}
           <div className=" text-white w-2/3 font-medium text-[32px] flex items-center gap-2">
             <div className="">

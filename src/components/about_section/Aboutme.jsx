@@ -8,7 +8,7 @@ const Aboutme = () => {
         {/* bottom */}
         <div className="flex flex-wrap justify-between items-center gap-10">
           {/* left */}
-          <div className=" md:w-[48%] w-full">
+          <div data-aos="fade-right" className=" md:w-[48%] w-full">
             {/* title */}
             <div className="mb-12">
               <div className=" text-white w-2/3 font-medium text-[32px] flex items-center gap-2">
@@ -46,7 +46,7 @@ const Aboutme = () => {
             </div>
           </div>
           {/* right */}
-          <div className="mx-auto">
+          <div data-aos="zoom-in" className="mx-auto">
             <img
               className="w-full max-sm:w-[90%] mx-auto h-[400px] rounded object-cover shadow-md"
               src="./images/me.jpg"
