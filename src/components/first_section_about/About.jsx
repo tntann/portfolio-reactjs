@@ -20,8 +20,12 @@ const About = () => {
           </NavLink>
         </div>
         <div data-aos="zoom-in" className="mx-auto">
-          <div className=" object-cover">
-            <img src="./images/avt-about.png" alt="" />
+          <div className="">
+            <img
+              className="w-full max-sm:w-[90%] mx-auto h-[400px] object-cover"
+              src="./images/avtme.png"
+              alt=""
+            />
           </div>
           <div className="border flex items-center gap-2 border-[#ABB2BF] p-2 text-[#ABB2BF]">
             <div className=" w-4 h-4 bg-[#C778DD]"></div>
