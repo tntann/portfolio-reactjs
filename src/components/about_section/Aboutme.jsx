@@ -5,19 +5,19 @@ const Aboutme = () => {
   return (
     <>
       <div className="px-5 max-w-[1560px] mx-auto mt-20 py-10">
+        {/* top title */}
+        <div data-aos="fade-right" className="mb-12">
+          <div className=" text-white w-2/3 font-medium text-[32px] flex items-center gap-2">
+            <div className="">
+              <span className="text-[#C778DD]">#</span>about-me
+            </div>
+            <div className="line w-1/3 h-px bg-[#C778DD]"></div>
+          </div>
+        </div>
         {/* bottom */}
-        <div className="flex flex-wrap justify-between items-center gap-10">
+        <div className="flex flex-wrap lg:flex-nowrap justify-between items-center gap-10">
           {/* left */}
           <div data-aos="fade-right" className=" md:w-[48%] w-full">
-            {/* title */}
-            <div className="mb-12">
-              <div className=" text-white w-2/3 font-medium text-[32px] flex items-center gap-2">
-                <div className="">
-                  <span className="text-[#C778DD]">#</span>about-me
-                </div>
-                <div className="line w-1/3 h-px bg-[#C778DD]"></div>
-              </div>
-            </div>
             {/* desc */}
             <p className="text-[#ABB2BF] w-10/12 mx-auto">
               Hi, I{"'"}m Tran Nhat Tan.
