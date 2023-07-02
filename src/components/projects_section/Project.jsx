@@ -29,7 +29,7 @@ const Project = () => {
         {/* bottom */}
         <div className="flex flex-wrap justify-between gap-4 my-12">
           {/* card */}
-          {ProjectsData.map((item) => {
+          {ProjectsData.slice(3).map((item) => {
             return (
               <ProjectCard
                 key={item.id}

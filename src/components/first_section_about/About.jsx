@@ -24,7 +24,7 @@ const About = () => {
             <img
               className="w-full max-sm:w-[90%] mx-auto h-[400px] object-cover"
               src="./images/avtme.png"
-              alt=""
+              alt="avt"
             />
           </div>
           <div className="border flex items-center gap-2 border-[#ABB2BF] p-2 text-[#ABB2BF]">

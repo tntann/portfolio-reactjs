@@ -42,7 +42,7 @@ export const ProjectsData = [
   {
     id: 6,
     img: "./images/Project/portfolio.png",
-    langs: ["REACTJS", "TAILWINDCSS", "Responsive"],
+    langs: ["REACTJS", "TAILWINDCSS"],
     title: "Portfolio",
     desc: "My portfolio",
     link: "https://portfolio-reactjs-tntan.vercel.app/",
