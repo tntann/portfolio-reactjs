@@ -47,4 +47,12 @@ export const ProjectsData = [
     desc: "My portfolio",
     link: "https://portfolio-reactjs-tntan.vercel.app/",
   },
+  {
+    id: 7,
+    img: "./images/Project/movieweb.png",
+    langs: ["REACTJS", "TAILWINDCSS", "API:TMDB"],
+    title: "Simple Movies",
+    desc: "Simple Movies",
+    link: "https://react-simple-movie-rho.vercel.app/",
+  },
 ];

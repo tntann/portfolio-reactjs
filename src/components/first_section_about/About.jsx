@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
       <div className="px-5 max-w-[1560px] mx-auto min-h-screen pt-20 flex items-center justify-between flex-wrap">
-        <div data-aos="zoom-in" className="w-10/12 sm:w-8/12 mx-auto">
+        <div data-aos="zoom-in" className="w-10/12 mx-auto sm:w-8/12">
           <h1 className=" font-semibold text-[32px] text-white mb-3">
             Hi, I am Nhat Tan <span className=" text-[#C778DD]"> - </span>
             <span className=" text-[#C778DD]"> front-end developer</span>
@@ -23,7 +23,7 @@ const About = () => {
           <div className="">
             <img
               className="w-full max-sm:w-[90%] mx-auto h-[400px] object-cover"
-              src="./images/avtme.png"
+              src="./images/tantn.png"
               alt="avt"
             />
           </div>
@@ -35,7 +35,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div data-aos="zoom-in-down" data-aos-delay="500" className=" px-5 py-10">
+      <div data-aos="zoom-in-down" data-aos-delay="500" className="px-5 py-10 ">
         <img className="mx-auto" src="./images/quote.png" alt="" />
       </div>
     </>
